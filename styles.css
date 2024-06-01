@@ -12,6 +12,10 @@
   --l: 24px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
@@ -62,4 +66,12 @@ body {
 
   /* make this dive centered in parent */
   margin: 0 auto;
+}
+
+.u-flex {
+  display: flex;
+}
+
+.u-flex-item {
+  flex: 50%;
 }
