@@ -28,6 +28,7 @@ body {
 .navContainer {
   background-color: var(--primary);
   padding: var(--s) var(--m);
+  margin-bottom: var(--s);
 }
 
 .navTitle {
